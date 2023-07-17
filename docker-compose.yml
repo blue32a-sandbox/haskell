@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   haskell:
-    image: haskell:9
+    build: .docker/haskell
     ports:
       - "8000:80"
     tty: true
