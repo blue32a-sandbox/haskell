@@ -1,2 +1,3 @@
-# haskell
-Learning Haskell language
+# Learning Haskell language
+
+https://www.haskell.org/

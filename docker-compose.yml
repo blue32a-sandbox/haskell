@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  haskell:
+    image: haskell:9
+    ports:
+      - "8000:80"
+    tty: true
+    volumes:
+      - .:/opt/haskell:cached
+    working_dir: /opt/haskell
